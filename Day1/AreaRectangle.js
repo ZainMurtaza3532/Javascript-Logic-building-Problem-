@@ -9,3 +9,4 @@ function calculateArea(length, width){
 calculateArea(5,10);
 calculateArea(7,3);
 calculateArea(12,4);
+calculateArea(44,2)
