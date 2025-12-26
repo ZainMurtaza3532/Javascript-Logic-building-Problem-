@@ -1,7 +1,6 @@
-function reverseString(str) {
-  if (str === "") return "";
-  return reverseString(str.slice(1)) + str[0];
-}
+function reverseAtString(inputString){
+    let reversedString = inputString.split('').reverse().join('');
+    return reversedString;
 
-console.log(reverseString("JavaScript"));
-console.log(reverseString("Hello, World!"));
+}
+console.log(reverseAtString("Hello World!")); // Output: !dlroW olleH
