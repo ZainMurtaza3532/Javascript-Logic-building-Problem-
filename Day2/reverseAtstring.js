@@ -4,3 +4,4 @@ function reverseAtString(inputString){
 
 }
 console.log(reverseAtString("Hello World!")); // Output: !dlroW olleH
+console.log(reverseAtString("JavaScript")); // Output: tpircSavaJ
